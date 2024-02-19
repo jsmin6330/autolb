@@ -31,7 +31,7 @@ services:
           memory: 70M
         reservations:
           cpus: '0.01'
-          memory: 20M
+          memory: 50M
     expose:
       - "80"
     environment:
