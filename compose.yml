@@ -15,7 +15,7 @@ services:
     image: soominjeong/gitblog:0.1.0
     deploy:
       mode: replicated
-      replicas: 1 # https://docs.docker.com/compose/compose-file/deploy/#replicas
+      replicas: 2 # https://docs.docker.com/compose/compose-file/deploy/#replicas
     expose:
       - "80"
     environment:
